@@ -1,0 +1,10 @@
+The KV-SS905C[1] scanner (and family) are industrial bulk document scanners. They
+have a document feed and can scan hundreds of pages at high speed without
+manual aid.
+
+Although some newer models have USB interfaces, this userspace driver uses the
+generic SCSI layer of the Linux kernel to work with their SCSI interface. It
+was written based on an NDAed document (not included) and released with
+Panasonic's blessing.
+
+[1] http://panasonic.co.jp/pcc/products/en/scanner/ss905c_e.htm
